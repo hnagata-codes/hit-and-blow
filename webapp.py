@@ -11,7 +11,7 @@ if "answer" not in st.session_state:
     st.session_state.round = 0
     st.session_state.is_correct = ""
 
-st.write(st.session_state.answer)
+# st.write(st.session_state.answer)
 
 is_correct = st.empty()
 history_table = st.empty()
